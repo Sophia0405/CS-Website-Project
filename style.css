@@ -1,3 +1,35 @@
+.topnav {
+	background-color:#ccecfc;
+	overflow:hidden;
+}
+
+.topnav a{
+	float:left;
+	color:#488db0;
+	text-align:center;
+	padding: 14 px 16 px;
+	text-decoration: none;
+	font-size: 20 px;
+}
+
+.topnav a:hover{
+	background-color:#9fbdcc;
+	color:black;
+}
+
 body {
-	font:;
+	background-color:#b9dced;
+	font-family:"Montserrat", sans-serif;
+}
+
+.header{
+	background-color:#397491;
+}
+
+
+td {
+	padding-top: 0px;
+  	padding-bottom: 20px;
+  	padding-left: 20px;
+	padding-right: 20px;
 }
