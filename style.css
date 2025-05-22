@@ -1,11 +1,11 @@
 .topnav {
-	background-color:#ccecfc;
+	background-color:#38688c;
 	overflow:hidden;
 }
 
 .topnav a{
 	float:left;
-	color:#488db0;
+	color:#f5f5f5;
 	text-align:center;
 	padding:20px 20px;
 	text-decoration:none;
@@ -13,25 +13,84 @@
 }
 
 .topnav a:hover{
-	background-color:#9fbdcc;
+	background-color:#bddbf2;
 	color:black;
 }
 
 body {
-	background-color:#b9dced;
-	font-family:"Montserrat", sans-serif;
+	background-color:#e8f2fc;
+}
+
+h2,body,a{
+	font-family:"Open Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
 }
 
 .header{
-	background-color:#397491;
+	background-color:#bddbf2;
 	padding:20px 20px;
+	color:#2d5675;
 }
 
 
 td {
 	padding-top:20px;
-  	padding-bottom:20px;
-  	padding-left:20px;
+  padding-bottom:20px;
+  padding-left:20px;
 	padding-right:20px;
 	text-align:center;
+	max-width: 2px;
+}
+
+tr {
+	padding-top:20px;
+  padding-bottom:20px;
+  padding-left:20px;
+	padding-right:20px;
+	text-align:center;
+	max-width: 180px;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #9aa9cf;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+a {
+	color:#21628d;
 }
